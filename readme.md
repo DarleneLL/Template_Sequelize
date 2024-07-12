@@ -22,11 +22,11 @@
 ### Rodando uma migration:
 `npx sequelize-cli db:migrate`
 
-## Reverter a ultima migration:
+### Reverter a ultima migration:
 `npx sequelize-cli db:migrate:undo`
 
-##Reverter todas as migrations:
-npx sequelize-cli db:migrate:undo:all
+### Reverter todas as migrations:
+`npx sequelize-cli db:migrate:undo:all`
 
 
 
