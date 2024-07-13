@@ -17,7 +17,7 @@
 `npm install dotenv`
 
 ### Criando uma migration: 
-`npx sequelize-cli db:migrate`
+`npx sequelize-cli migration:generate --name <nome>`
 
 ### Rodando uma migration:
 `npx sequelize-cli db:migrate`
